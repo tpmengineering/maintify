@@ -60,6 +60,7 @@
         }
 
         .btn-upload {
+            margin-top: 10px;
             background-color: #1f319d;
             color: white;
             font-size: 1.1rem;
@@ -92,20 +93,21 @@
             }
 
             .input-file input[type="file"] {
-                font-size: 14px;
+                font-size: 10px;
                 padding: 8px;
             }
 
             .btn-upload {
                 font-size: 14px;
-                padding: 8px 15px;
+                padding: 8px 20px;
+                margin-top: 10px;
             }
         }
     </style>
 </head>
 <body>
     <div class="upload-container">
-        <h2>Unggah Dokumentasi</h2>
+        <h2>UNGGAH DOKUMENTASI</h2>
 
         <!-- Label and Input for first file (before) -->
         <label for="fileInput1">Sebelum</label>
@@ -116,7 +118,7 @@
         <input type="file" id="fileInput2" accept="image/*" class="input-file">
         
         <!-- Upload Button -->
-        <button class="btn-upload" onclick="uploadFiles()">Upload</button>
+        <button class="btn-upload" onclick="uploadFiles()">SUBMIT</button>
         
         <!-- Response message -->
         <div id="response" class="response"></div>
