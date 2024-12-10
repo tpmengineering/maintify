@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload Images Preventife</title>
-    <link rel="shortcut icon" href="iconB.png" type="image/x-icon">
+    <title>Maintify1.0</title>
     <style>
         /* General styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f7fa;
-            margin: 0;
-            padding: 0;
+            background-color: #fff;
+            height: 100vh;
+            box-sizing: border-box;
         }
 
         .upload-container {
+            margin: 0 auto;
             max-width: 600px;
-            margin: 50px auto;
             padding: 30px;
             background-color: white;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
             text-align: center;
         }
 
@@ -43,6 +42,7 @@
             display: block;
             width: 100%;
             text-align: center;
+            box-sizing: border-box;
         }
 
         input[type="file"] {
@@ -76,7 +76,7 @@
 
         .response {
             margin-top: 20px;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: #333;
         }
 
@@ -84,11 +84,11 @@
         @media screen and (max-width: 768px) {
             .upload-container {
                 padding: 20px;
-                width: 90%;
+                width: 70%;
             }
 
             h2 {
-                font-size: 1.6rem;
+                font-size: 1.2rem;
             }
 
             .input-file input[type="file"] {
@@ -105,7 +105,7 @@
 </head>
 <body>
     <div class="upload-container">
-        <h2>Upload Images Preventife</h2>
+        <h2>Unggah Dokumentasi</h2>
 
         <!-- Label and Input for first file (before) -->
         <label for="fileInput1">Sebelum</label>
